@@ -1,0 +1,40 @@
+/* Error 404 Container */
+.error-404-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8d7da; /* Light pinkish-red background */
+    border: 1px solid #f5c6cb; /* Light border color */
+    border-radius: 8px;
+    padding: 30px;
+    max-width: 700px;
+    margin: 50px auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    flex-direction: column;
+  }
+  
+  /* Icon Styling */
+  .error-404-icon {
+    font-size: 80px;
+    color: #dc3545; /* Red color */
+    margin-bottom: 20px;
+  }
+  
+  /* Message Styling */
+  .error-404-message {
+    color: #721c24;
+  }
+  
+  .error-404-message h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .error-404-message p {
+    font-size: 16px;
+    margin: 0;
+    color: #6c757d;
+  }
+  

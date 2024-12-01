@@ -1,0 +1,104 @@
+/* General Styling */
+.view-more-container {
+    width: 100%;
+    max-width: 700px;
+    margin: 20px auto;
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.view-more-spinner {
+    margin-top: 100px;
+}
+
+.back-button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 20px;
+    transition: background-color 0.3s;
+}
+
+.back-button:hover {
+    background-color: #0056b3;
+}
+
+.back-button:focus {
+    outline: none;
+}
+
+.back-button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 20px;
+    transition: background-color 0.3s;
+}
+
+.back-button:hover {
+    background-color: #0056b3;
+}
+
+.back-button:focus {
+    outline: none;
+}
+
+/* view-more Details Section */
+.view-more-details {
+    text-align: center;
+}
+
+.view-more-details h2 {
+    font-size: 28px;
+    margin: 15px 0;
+    color: #333;
+}
+
+.view-more-image {
+    max-width: auto;
+    height: 350px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* view-more Description */
+.description {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+/* Additional Info Styling */
+.additional-info {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+}
+
+.additional-info p {
+    font-size: 16px;
+    color: #333;
+    margin: 10px 0;
+    line-height: 1.6;
+}
+
+.additional-info p strong {
+    font-weight: bold;
+}
